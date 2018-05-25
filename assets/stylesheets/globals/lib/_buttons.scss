@@ -1,0 +1,20 @@
+// Buttons
+
+button {
+  text-transform: none;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+}
+.mw-btn {
+  -webkit-appearance: none;
+  border: 0;
+  display: inline-block;
+  margin-bottom: $spacing-para;
+  padding: $spacing-box;
+  vertical-align: middle;
+  a {
+    text-decoration: none;
+  }
+}
+

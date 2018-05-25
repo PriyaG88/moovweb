@@ -1,0 +1,15 @@
+{
+  "moovweb_project_format_version": "2.0.0",
+  "domain_model": "subdomain",
+  "taskrunner": {
+    "on_project_start_command": "node ./tasks/start",
+    "on_deploy_command": "node ./tasks/deploy",
+    "on_request_command": "node ./tasks/request"
+  },
+  
+  "layers": ["minify-js", "minify-css", "live-reload"],
+  "host_map": [
+    "$.igadgetcommerce.com => igadgetcommerce.com",
+    "$.igadgetcommerce.com => www.igadgetcommerce.com"
+  ]
+}

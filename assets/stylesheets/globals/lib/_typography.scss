@@ -1,0 +1,25 @@
+// Typography [note that global type is set on body in _base.scss]
+
+b, strong {
+  font-weight: bold;
+}
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+pre {
+  white-space: pre-wrap;
+}
+sup, sub {
+  font-size: 12px;
+  height: 0;
+  line-height: 1;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  bottom: 1ex;
+}
+sub {
+  top: .5ex;
+}

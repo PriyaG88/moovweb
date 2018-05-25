@@ -1,0 +1,40 @@
+// Boxes
+
+.mw-clearfix {
+  @include clearfix;
+}
+.mw-flex-box {
+  // Flex Box
+  // - flex-box: add this class to get flex box properties
+  // - flex-box-item: add to the number of items that are in the container
+  @include display-box;
+  @include box-orient(horizontal);
+  @include box-align(stretch);
+  .mw-flex-box-item-1 {
+    display: block;
+    @include box-flex(1);
+  }
+  .mw-flex-box-item-2 {
+    display: block;
+    @include box-flex(2);
+  }
+  .mw-flex-box-item-3 {
+    display: block;
+    @include box-flex(3);
+  }
+  .mw-flex-box-item-4 {
+    display: block;
+    @include box-flex(4);
+  }
+  .mw-flex-box-item-5 {
+    display: block;
+    @include box-flex(5);
+  }
+}
+.mw-flex-wrap {
+  // Flex wrap
+  @include display(flex);
+  -webkit-flex-flow: row wrap;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}

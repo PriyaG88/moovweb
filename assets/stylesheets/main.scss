@@ -1,0 +1,15 @@
+@import "globals/reset";
+@import "globals/bourbon/bourbon"; // Moovweb-modified
+@import "globals/uranium";
+@import "globals/variables";
+@import "globals/lib";
+
+// Import global base styles
+@import "globals/base";
+
+// Header & Footer
+@import "sections/header";
+@import "sections/footer";
+
+// Pages
+@import "pages/home";

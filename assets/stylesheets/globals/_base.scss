@@ -1,0 +1,39 @@
+// Base: global rules that can be applied to any page
+
+* {
+  -webkit-touch-callout: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  overflow: auto !important;
+}
+body {
+  -webkit-text-size-adjust: none; // stop zoom on rotation
+  background: white;
+  color: black;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: 1.2;
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+a {
+  // Don't show the highlight of a link when tapped
+  -webkit-tap-highlight-color: rgba(229, 82, 19, 0.5);
+  color: $color-link;
+  text-decoration: none;
+  word-wrap: break-word;
+  &:focus, &:active, &:hover {
+    outline: 0;
+  }
+}
+img {
+  height: auto;
+  max-width: 100%;
+}
+.mw-hide {
+  display: none;
+}

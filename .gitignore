@@ -1,0 +1,15 @@
+*~
+*.swp
+.DS_Store
+assets/images/sprites.png
+assets/javascript/.remote/
+assets/javascript/host_map.js
+assets/javascript/main.js
+assets/stylesheets/.css/*
+assets/stylesheets/globals/_sprites.scss
+moovworkerd.pid
+node_modules
+npm-debug.log
+tmp
+build
+scripts/moov_main.js

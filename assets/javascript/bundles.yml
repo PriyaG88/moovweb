@@ -1,0 +1,10 @@
+---
+- :output_file: main.js
+  :input_directories:
+    - main
+  :input_files:
+  - host_map.js
+  - http://downloads.moovweb.com/plutonium/0.1.96/passthrough_ajax.js
+  - http://downloads.moovweb.com/uranium/1.0.184/uranium-pretty.js
+  - vendor/jquery.DOMNodeAppear.js
+  - mw.Igadget.js

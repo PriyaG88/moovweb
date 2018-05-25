@@ -1,0 +1,20 @@
+{
+  "name": "igadget",
+  "version": "0.0.0",
+  "main": "scripts/moov_main.js",
+  "dependencies": {
+    "moov_rewriter": "3.0.9",
+    "moov_stdlib": "2.6.31",
+    "moov_perf": "1.2.5"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "moov_builder": "2.4.15"
+  },
+  "scripts": {
+    "bundle": "node --harmony ./node_modules/.bin/moov_builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moovweb",
+  "license": "MIT"
+}

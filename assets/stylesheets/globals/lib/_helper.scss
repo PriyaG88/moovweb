@@ -1,0 +1,14 @@
+// Helpers/Placeholders
+
+%absolute-middle {
+  @include transform(translateY(-50%));
+  position: absolute;
+  top: 50%;
+}
+
+%absolute-center {
+  @include transform(translateY(-50%) translateX(-50%));
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
