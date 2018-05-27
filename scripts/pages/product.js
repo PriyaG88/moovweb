@@ -1,3 +1,3 @@
 module.exports = function() {
-  $body.addClass('mw-category');
+  $body.addClass("mw-product");
 };
